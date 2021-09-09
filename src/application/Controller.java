@@ -33,11 +33,12 @@ import javafx.scene.text.Text;
 
 	        if (!"=".equals(value)) {
 	            if (!operator.isEmpty())
-	            	switch(value) {
-					case"C":
+	            	if (value.equals("C")) {
+	            	
+					
 						output.setText("");
 						this.number1=0;
-						break;
+						
 					
 					}
 	            
@@ -58,7 +59,7 @@ import javafx.scene.text.Text;
 	            start = true;
 	        }catch (NumberFormatException e){
                e.getMessage(); 
-               return;
+  
             }  
 	    }
 	}
