@@ -10,7 +10,7 @@ import javafx.scene.text.Text;
 	    private Text output;
 	    
 	    private double number1 = 0;
-	    private double number2 = 0;
+	  
 	    private String operator = "";
 	    private boolean start = true;
 
@@ -52,7 +52,7 @@ import javafx.scene.text.Text;
 	        
 	        }
 	        try {
-	        	number2 =  Double.parseDouble(output.getText());
+	        	double number2 =  Double.parseDouble(output.getText());
 	            output.setText(String.valueOf(model.calculate(number1, number2 , operator)));
 	            operator = "";
 	            start = true;
