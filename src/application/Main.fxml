@@ -23,31 +23,31 @@
     </StackPane>
 
     <HBox spacing="10" alignment="CENTER">
-    	 <Button text="C" prefWidth="50" font="$FONT" onAction="#Operator" />
-        <Button text="7" prefWidth="50" font="$FONT" onAction="#Numbers" />
-        <Button text="8" prefWidth="50" font="$FONT" onAction="#Numbers" />
-        <Button text="9" prefWidth="50" font="$FONT" onAction="#Numbers" />
-        <Button text="/" prefWidth="50" font="$FONT" onAction="#Operator" />
+    	 <Button text="C" prefWidth="50" font="$FONT" onAction="#operator" />
+        <Button text="7" prefWidth="50" font="$FONT" onAction="#numbers" />
+        <Button text="8" prefWidth="50" font="$FONT" onAction="#numbers" />
+        <Button text="9" prefWidth="50" font="$FONT" onAction="#numbers" />
+        <Button text="/" prefWidth="50" font="$FONT" onAction="#operator" />
     </HBox>
     
     <HBox spacing="10" alignment="CENTER">
-        <Button text="4" prefWidth="50" font="$FONT" onAction="#Numbers" />
-        <Button text="5" prefWidth="50" font="$FONT" onAction="#Numbers" />
-        <Button text="6" prefWidth="50" font="$FONT" onAction="#Numbers" />
-        <Button text="*" prefWidth="50" font="$FONT" onAction="#Operator" />
+        <Button text="4" prefWidth="50" font="$FONT" onAction="#numbers" />
+        <Button text="5" prefWidth="50" font="$FONT" onAction="#numbers" />
+        <Button text="6" prefWidth="50" font="$FONT" onAction="#numbers" />
+        <Button text="*" prefWidth="50" font="$FONT" onAction="#operator" />
     </HBox>
     
     <HBox spacing="10" alignment="CENTER">
-        <Button text="1" prefWidth="50" font="$FONT" onAction="#Numbers" />
-        <Button text="2" prefWidth="50" font="$FONT" onAction="#Numbers" />
-        <Button text="3" prefWidth="50" font="$FONT" onAction="#Numbers" />
-        <Button text="-" prefWidth="50" font="$FONT" onAction="#Operator" />
+        <Button text="1" prefWidth="50" font="$FONT" onAction="#numbers" />
+        <Button text="2" prefWidth="50" font="$FONT" onAction="#numbers" />
+        <Button text="3" prefWidth="50" font="$FONT" onAction="#numbers" />
+        <Button text="-" prefWidth="50" font="$FONT" onAction="#operator" />
     </HBox>
     
     <HBox spacing="10" alignment="CENTER">
-        <Button text="0" prefWidth="110" font="$FONT" onAction="#Numbers" />
-        <Button text="=" prefWidth="50" font="$FONT" onAction="#Operator" />
-        <Button text="+" prefWidth="50" font="$FONT" onAction="#Operator" />
+        <Button text="0" prefWidth="110" font="$FONT" onAction="#numbers" />
+        <Button text="=" prefWidth="50" font="$FONT" onAction="#operator" />
+        <Button text="+" prefWidth="50" font="$FONT" onAction="#operator" />
     </HBox>
     
 </VBox>

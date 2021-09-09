@@ -17,7 +17,7 @@ import javafx.scene.text.Text;
 	    private Model model = new Model();
 
 	    @FXML
-	    private void Numbers(ActionEvent event) {
+	    private void numbers(ActionEvent event) {
 	    	if (start) {
 	            output.setText("");
 	            start = false;
@@ -28,7 +28,7 @@ import javafx.scene.text.Text;
 	    }
 
 	    @FXML
-	    private void Operator(ActionEvent event) {
+	    private void operator(ActionEvent event) {
 	        String value = ((Button)event.getSource()).getText();
 
 	        if (!"=".equals(value)) {
