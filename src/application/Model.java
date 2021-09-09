@@ -10,14 +10,14 @@ public class Model {
 	            case "*":
 	                return number1 * number2;
 	            case "/":
-	            	if(number2 != 0) {
+	           
 	            		return number1 / number2;
-	            	}
+	      
 	            default:
 	                break;	
 	        }
 
-	        System.out.println("Unknown operator: " + operator);
+	    
 	        return 0;
 	    }
 }
