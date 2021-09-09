@@ -32,8 +32,8 @@ import javafx.scene.text.Text;
 	        String value = ((Button)event.getSource()).getText();
 
 	        if (!"=".equals(value)) {
-	            if (!operator.isEmpty() )
-	            	if (value.equals("C")) {
+	            if (!operator.isEmpty() && value.equals("C")) {
+	            	
 	            	
 					
 						output.setText("");
