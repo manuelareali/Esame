@@ -57,7 +57,8 @@ import javafx.scene.text.Text;
 	            operator = "";
 	            start = true;
 	        }catch (NumberFormatException e){
-                return; 
+               e.getMessage(); 
+               return;
             }  
 	    }
 	}
